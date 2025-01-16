@@ -1,0 +1,132 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #1e3d58; /* Warna biru gelap */
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #4a90e2; /* Warna biru terang */
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+/* About Section */
+.about {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 28px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Projects Section */
+.projects {
+  background-color: #e1f1ff; /* Biru muda */
+  padding: 40px 0;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.project-item {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.project-item h3 {
+  font-size: 22px;
+  color: #1e3d58; /* Warna biru gelap */
+}
+
+.project-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
+.contact a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background-color: #1e3d58; /* Biru gelap */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
